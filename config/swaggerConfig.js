@@ -1,3 +1,7 @@
+/*
+Author: Akanksha Misha
+ */
+
 const swaggerJsdoc = require('swagger-jsdoc');
 const swaggerUi = require('swagger-ui-express');
 
@@ -19,7 +23,6 @@ const options = {
     apis: ['./routes/*.js'],
 };
 
-// Initialize Swagger docs
 const swaggerSpec = swaggerJsdoc(options);
 
 const swaggerDocs = (app) => {

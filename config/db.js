@@ -1,3 +1,7 @@
+/*
+Author: Akanksha Misha
+ */
+
 const { Sequelize } = require('sequelize');
 const dotenv = require('dotenv');
 
@@ -7,7 +11,6 @@ const sequelize = new Sequelize(process.env.DB_NAME, process.env.DB_USER, proces
     host: process.env.DB_HOST,
     dialect: 'mysql',
     port: process.env.DB_PORT,
-    logging: false, // Disable logging in production
 });
 
 sequelize

@@ -1,3 +1,7 @@
+/*
+Author: Akanksha Misha
+ */
+
 const express = require('express');
 const { body } = require('express-validator');
 const { signup, login } = require('../controller/authController');

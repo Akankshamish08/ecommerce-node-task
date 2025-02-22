@@ -1,3 +1,7 @@
+/*
+Author: Akanksha Misha
+ */
+
 const express = require('express');
 const { createCategory, getAllCategories } = require('../controller/categoryController');
 const authMiddleware = require('../middleware/authMiddleware');
